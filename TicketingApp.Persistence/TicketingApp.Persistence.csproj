@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="DbContexts\" />
+    <Folder Include="Configurations\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TicketingApp.Domain\TicketingApp.Domain.csproj" />
+    <ProjectReference Include="..\TicketingApp.Infrastructure\TicketingApp.Infrastructure.csproj" />
+    <ProjectReference Include="..\TicketingApp.Shared\TicketingApp.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
