@@ -4,6 +4,8 @@ using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using TicketingApp.Application.DTOs.User;
+using TicketingApp.Application.Services;
 using TicketingApp.Domain.Entities;
 using TicketingApp.Persistence.DbContexts;
 
@@ -13,64 +15,47 @@ namespace TicketingApp.API.Controllers
     [ApiController]
     public class AuthController : ControllerBase
     {
+        private readonly AuthService _authService;
 
-        private readonly TicketingDbContext _context;
-        private readonly IConfiguration _config;
-
-        public AuthController(TicketingDbContext context, IConfiguration config)
+        public AuthController(AuthService authService)
         {
-            _context = context;
-            _config = config;
+            _authService = authService;
         }
-
 
         [HttpPost("register")]
         public IActionResult Register([FromBody] RegisterUserDto dto)
         {
-            if (_context.Users.Any(u => u.Email == dto.Email))
-                return BadRequest("Email ya registrado.");
-
-            var user = new User
+            try
             {
-                Email = dto.Email,
-                Name = dto.Name,
-                PasswordHash = BCrypt.Net.BCrypt.HashPassword(dto.Password),
-                Role = "User"
-            };
-
-            _context.Users.Add(user);
-            _context.SaveChanges();
-
-            return Ok("Registro exitoso.");
+                var result = _authService.Register(dto);
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
-
         [HttpPost("login")]
-        public IActionResult Login([FromBody] LoginDto dto)
+        public IActionResult Login([FromBody] LoginUserDto dto)
         {
-            var user = _context.Users.FirstOrDefault(u => u.Email == dto.Email);
-            if (user == null || !BCrypt.Net.BCrypt.Verify(dto.Password, user.PasswordHash))
-                return Unauthorized("Credenciales inválidas.");
-
-            var claims = new[]
+            try
             {
-                new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
-                new Claim(ClaimTypes.Email, user.Email),
-                new Claim(ClaimTypes.Role, user.Role)
-            };
-
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]!));
-            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
-            var token = new JwtSecurityToken(
-                claims: claims,
-                expires: DateTime.UtcNow.AddHours(2),
-                signingCredentials: creds);
-
-            return Ok(new
+                var (token, user) = _authService.Login(dto);
+                return Ok(new
+                {
+                    token,
+                    user = new { user.Id, user.Email, user.Name, user.Role }
+                });
+            }
+            catch (UnauthorizedAccessException ex)
             {
-                token = new JwtSecurityTokenHandler().WriteToken(token),
-                user = new { user.Id, user.Email, user.Name, user.Role }
-            });
+                return Unauthorized(ex.Message);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
     }
 

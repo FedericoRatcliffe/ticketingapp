@@ -1,54 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\ratcl\\OneDrive\\Escritorio\\TicketTailwind NG 19\\TicketingApp\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{EE064606-F125-47D4-8DAF-D2D71B80E232}|TicketingApp.Application\\TicketingApp.Application.csproj|c:\\users\\ratcl\\onedrive\\escritorio\\tickettailwind ng 19\\ticketingapp\\ticketingapp.application\\ticketingapp.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{EE064606-F125-47D4-8DAF-D2D71B80E232}|TicketingApp.Application\\TicketingApp.Application.csproj|solutionrelative:ticketingapp.application\\ticketingapp.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE064606-F125-47D4-8DAF-D2D71B80E232}|TicketingApp.Application\\TicketingApp.Application.csproj|c:\\users\\ratcl\\onedrive\\escritorio\\tickettailwind ng 19\\ticketingapp\\ticketingapp.application\\dtos\\user\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE064606-F125-47D4-8DAF-D2D71B80E232}|TicketingApp.Application\\TicketingApp.Application.csproj|solutionrelative:ticketingapp.application\\dtos\\user\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TicketingApp.Application",
-              "DocumentMoniker": "C:\\Users\\ratcl\\OneDrive\\Escritorio\\TicketTailwind NG 19\\TicketingApp\\TicketingApp.Application\\TicketingApp.Application.csproj",
-              "RelativeDocumentMoniker": "TicketingApp.Application\\TicketingApp.Application.csproj",
-              "ToolTip": "C:\\Users\\ratcl\\OneDrive\\Escritorio\\TicketTailwind NG 19\\TicketingApp\\TicketingApp.Application\\TicketingApp.Application.csproj",
-              "RelativeToolTip": "TicketingApp.Application\\TicketingApp.Application.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-19T02:26:19.593Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginUserDto.cs",
-              "DocumentMoniker": "C:\\Users\\ratcl\\OneDrive\\Escritorio\\TicketTailwind NG 19\\TicketingApp\\TicketingApp.Application\\DTOs\\User\\LoginUserDto.cs",
-              "RelativeDocumentMoniker": "TicketingApp.Application\\DTOs\\User\\LoginUserDto.cs",
-              "ToolTip": "C:\\Users\\ratcl\\OneDrive\\Escritorio\\TicketTailwind NG 19\\TicketingApp\\TicketingApp.Application\\DTOs\\User\\LoginUserDto.cs",
-              "RelativeToolTip": "TicketingApp.Application\\DTOs\\User\\LoginUserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T02:24:24.606Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
