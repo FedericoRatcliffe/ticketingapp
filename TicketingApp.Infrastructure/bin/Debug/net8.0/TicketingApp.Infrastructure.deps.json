@@ -1,0 +1,71 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "TicketingApp.Infrastructure/1.0.0": {
+        "dependencies": {
+          "TicketingApp.Application": "1.0.0",
+          "TicketingApp.Domain": "1.0.0",
+          "TicketingApp.Shared": "1.0.0"
+        },
+        "runtime": {
+          "TicketingApp.Infrastructure.dll": {}
+        }
+      },
+      "TicketingApp.Application/1.0.0": {
+        "dependencies": {
+          "TicketingApp.Domain": "1.0.0",
+          "TicketingApp.Shared": "1.0.0"
+        },
+        "runtime": {
+          "TicketingApp.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "TicketingApp.Domain/1.0.0": {
+        "runtime": {
+          "TicketingApp.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "TicketingApp.Shared/1.0.0": {
+        "runtime": {
+          "TicketingApp.Shared.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TicketingApp.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TicketingApp.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TicketingApp.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TicketingApp.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

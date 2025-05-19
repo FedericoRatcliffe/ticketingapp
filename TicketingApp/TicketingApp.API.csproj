@@ -7,16 +7,23 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
     <Folder Include="Middlewares\" />
     <Folder Include="Extensions\" />
     <Folder Include="Filters\" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.16" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="8.1.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="8.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\TicketingApp.Application\TicketingApp.Application.csproj" />
     <ProjectReference Include="..\TicketingApp.Domain\TicketingApp.Domain.csproj" />
     <ProjectReference Include="..\TicketingApp.Infrastructure\TicketingApp.Infrastructure.csproj" />
+    <ProjectReference Include="..\TicketingApp.Persistence\TicketingApp.Persistence.csproj" />
     <ProjectReference Include="..\TicketingApp.Shared\TicketingApp.Shared.csproj" />
   </ItemGroup>
 

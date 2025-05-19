@@ -1,0 +1,12 @@
+C:\Users\ratcl\OneDrive\Escritorio\TicketTailwind NG 19\TicketingApp\TicketingApp.Domain\bin\Debug\net8.0\TicketingApp.Domain.deps.json
+C:\Users\ratcl\OneDrive\Escritorio\TicketTailwind NG 19\TicketingApp\TicketingApp.Domain\bin\Debug\net8.0\TicketingApp.Domain.dll
+C:\Users\ratcl\OneDrive\Escritorio\TicketTailwind NG 19\TicketingApp\TicketingApp.Domain\bin\Debug\net8.0\TicketingApp.Domain.pdb
+C:\Users\ratcl\OneDrive\Escritorio\TicketTailwind NG 19\TicketingApp\TicketingApp.Domain\obj\Debug\net8.0\TicketingApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ratcl\OneDrive\Escritorio\TicketTailwind NG 19\TicketingApp\TicketingApp.Domain\obj\Debug\net8.0\TicketingApp.Domain.AssemblyInfoInputs.cache
+C:\Users\ratcl\OneDrive\Escritorio\TicketTailwind NG 19\TicketingApp\TicketingApp.Domain\obj\Debug\net8.0\TicketingApp.Domain.AssemblyInfo.cs
+C:\Users\ratcl\OneDrive\Escritorio\TicketTailwind NG 19\TicketingApp\TicketingApp.Domain\obj\Debug\net8.0\TicketingApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ratcl\OneDrive\Escritorio\TicketTailwind NG 19\TicketingApp\TicketingApp.Domain\obj\Debug\net8.0\TicketingApp.Domain.sourcelink.json
+C:\Users\ratcl\OneDrive\Escritorio\TicketTailwind NG 19\TicketingApp\TicketingApp.Domain\obj\Debug\net8.0\TicketingApp.Domain.dll
+C:\Users\ratcl\OneDrive\Escritorio\TicketTailwind NG 19\TicketingApp\TicketingApp.Domain\obj\Debug\net8.0\refint\TicketingApp.Domain.dll
+C:\Users\ratcl\OneDrive\Escritorio\TicketTailwind NG 19\TicketingApp\TicketingApp.Domain\obj\Debug\net8.0\TicketingApp.Domain.pdb
+C:\Users\ratcl\OneDrive\Escritorio\TicketTailwind NG 19\TicketingApp\TicketingApp.Domain\obj\Debug\net8.0\ref\TicketingApp.Domain.dll

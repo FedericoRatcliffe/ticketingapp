@@ -1,0 +1,12 @@
+C:\Users\ratcl\OneDrive\Escritorio\TicketTailwind NG 19\TicketingApp\TicketingApp.Shared\bin\Debug\net8.0\TicketingApp.Shared.deps.json
+C:\Users\ratcl\OneDrive\Escritorio\TicketTailwind NG 19\TicketingApp\TicketingApp.Shared\bin\Debug\net8.0\TicketingApp.Shared.dll
+C:\Users\ratcl\OneDrive\Escritorio\TicketTailwind NG 19\TicketingApp\TicketingApp.Shared\bin\Debug\net8.0\TicketingApp.Shared.pdb
+C:\Users\ratcl\OneDrive\Escritorio\TicketTailwind NG 19\TicketingApp\TicketingApp.Shared\obj\Debug\net8.0\TicketingApp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ratcl\OneDrive\Escritorio\TicketTailwind NG 19\TicketingApp\TicketingApp.Shared\obj\Debug\net8.0\TicketingApp.Shared.AssemblyInfoInputs.cache
+C:\Users\ratcl\OneDrive\Escritorio\TicketTailwind NG 19\TicketingApp\TicketingApp.Shared\obj\Debug\net8.0\TicketingApp.Shared.AssemblyInfo.cs
+C:\Users\ratcl\OneDrive\Escritorio\TicketTailwind NG 19\TicketingApp\TicketingApp.Shared\obj\Debug\net8.0\TicketingApp.Shared.csproj.CoreCompileInputs.cache
+C:\Users\ratcl\OneDrive\Escritorio\TicketTailwind NG 19\TicketingApp\TicketingApp.Shared\obj\Debug\net8.0\TicketingApp.Shared.sourcelink.json
+C:\Users\ratcl\OneDrive\Escritorio\TicketTailwind NG 19\TicketingApp\TicketingApp.Shared\obj\Debug\net8.0\TicketingApp.Shared.dll
+C:\Users\ratcl\OneDrive\Escritorio\TicketTailwind NG 19\TicketingApp\TicketingApp.Shared\obj\Debug\net8.0\refint\TicketingApp.Shared.dll
+C:\Users\ratcl\OneDrive\Escritorio\TicketTailwind NG 19\TicketingApp\TicketingApp.Shared\obj\Debug\net8.0\TicketingApp.Shared.pdb
+C:\Users\ratcl\OneDrive\Escritorio\TicketTailwind NG 19\TicketingApp\TicketingApp.Shared\obj\Debug\net8.0\ref\TicketingApp.Shared.dll

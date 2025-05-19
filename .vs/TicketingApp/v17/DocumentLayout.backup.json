@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\ratcl\\OneDrive\\Escritorio\\TicketTailwind NG 19\\TicketingApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{053F93C2-508B-4202-9EDC-3BD97438B9F2}|TicketingApp\\TicketingApp.API.csproj|c:\\users\\ratcl\\onedrive\\escritorio\\tickettailwind ng 19\\ticketingapp\\ticketingapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{053F93C2-508B-4202-9EDC-3BD97438B9F2}|TicketingApp\\TicketingApp.API.csproj|solutionrelative:ticketingapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{053F93C2-508B-4202-9EDC-3BD97438B9F2}|TicketingApp\\TicketingApp.API.csproj|c:\\users\\ratcl\\onedrive\\escritorio\\tickettailwind ng 19\\ticketingapp\\ticketingapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{053F93C2-508B-4202-9EDC-3BD97438B9F2}|TicketingApp\\TicketingApp.API.csproj|solutionrelative:ticketingapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{053F93C2-508B-4202-9EDC-3BD97438B9F2}|TicketingApp\\TicketingApp.API.csproj|c:\\users\\ratcl\\onedrive\\escritorio\\tickettailwind ng 19\\ticketingapp\\ticketingapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{053F93C2-508B-4202-9EDC-3BD97438B9F2}|TicketingApp\\TicketingApp.API.csproj|solutionrelative:ticketingapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ratcl\\OneDrive\\Escritorio\\TicketTailwind NG 19\\TicketingApp\\TicketingApp\\appsettings.json",
+              "RelativeDocumentMoniker": "TicketingApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\ratcl\\OneDrive\\Escritorio\\TicketTailwind NG 19\\TicketingApp\\TicketingApp\\appsettings.json",
+              "RelativeToolTip": "TicketingApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-19T02:17:58.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\ratcl\\OneDrive\\Escritorio\\TicketTailwind NG 19\\TicketingApp\\TicketingApp\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "TicketingApp\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\ratcl\\OneDrive\\Escritorio\\TicketTailwind NG 19\\TicketingApp\\TicketingApp\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "TicketingApp\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAqwFIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T02:05:13.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ratcl\\OneDrive\\Escritorio\\TicketTailwind NG 19\\TicketingApp\\TicketingApp\\Program.cs",
+              "RelativeDocumentMoniker": "TicketingApp\\Program.cs",
+              "ToolTip": "C:\\Users\\ratcl\\OneDrive\\Escritorio\\TicketTailwind NG 19\\TicketingApp\\TicketingApp\\Program.cs",
+              "RelativeToolTip": "TicketingApp\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T00:29:42.216Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
